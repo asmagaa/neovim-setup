@@ -7,6 +7,11 @@ require("lazy").setup({
   },
 
   -- miejsce na pluginy !!!
+  {
+    "catppuccin/nvim",
+    name = "catppuccin",
+    priority = 1000,
+  },
 })
 
 return {
